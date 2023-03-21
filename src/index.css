@@ -257,17 +257,18 @@ ul {
 .section-center {
   width: 90vw;
   margin: 0 auto;
-  max-width: 30rem;
   margin-top: 8rem;
+  max-width: 30rem;
   background: var(--white);
   border-radius: var(--borderRadius);
+  padding: 2rem;
   box-shadow: var(--shadow-1);
   transition: var(--transition);
-  padding: 2rem;
 }
 .section-center:hover {
   box-shadow: var(--shadow-3);
 }
+
 form h4 {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -292,7 +293,6 @@ form h4 {
   display: grid;
   row-gap: 1rem;
 }
-
 .single-item {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -302,6 +302,7 @@ form h4 {
 .single-item p {
   letter-spacing: var(--letterSpacing);
 }
+
 .remove-btn {
   padding: 0.15rem 0.25rem;
   font-size: 0.75rem;
